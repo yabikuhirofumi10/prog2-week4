@@ -16,7 +16,8 @@ public class Chatbot {
 
     public void setName(String _name){
         if(_name.equals("差別用語")){
-            System.out.println("禁止されています");
+            System.err.println("禁止されています");
+            System.exit(-1);
         }else{
             String name1 = this.name;
             String name2 = _name;
