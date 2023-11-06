@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) throws Exception {
         //System.out.println("main method runs");
-        //git test
+        //git test 2
         Chatbot bot1 = new Chatbot();
         Chatbot bot2 = new Chatbot("yabiku"); 
         bot1.greeting();
